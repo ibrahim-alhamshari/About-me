@@ -1,5 +1,5 @@
 'use strict';
-/* let yourName = prompt('What\'s your name ?');
+let yourName = prompt('What\'s your name ?');
 let yourAge = prompt('Is your age is greater than 12!');
 var feBack = prompt('Are you a student ?');
 let question = prompt('Do you know me ?');
@@ -29,7 +29,6 @@ switch(movie1){
     default:
         alert('Welcome to my website');
 }
-*/
 let scoure=0;
 let sum = prompt('What is the result of this equation (7*4-5^2+10) ? You have only four attempts.');
 sum = parseInt(sum);
