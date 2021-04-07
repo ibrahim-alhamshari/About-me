@@ -7,7 +7,10 @@ function q2(){
 let yourAge = prompt('Is your age is greater than 12!');
 }
 q2();
+function q3(){
 var feBack = prompt('Are you a student ?');
+}
+q3();
 let question = prompt('Do you know me ?');
 let movie1 = prompt('Am i from Irbid ?');
 let kids = prompt(' Do you have kids ?');
