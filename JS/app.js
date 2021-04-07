@@ -84,6 +84,8 @@ alert ('the answer is (13)')
     console.log(sum);
 }
 q6();
+
+function q7(){
     let myJob =['painter ', ' songer ' ,' Traveler ',' engineer ' , ' artst ' , ' doctor ' , ' salseman ' , ' carpenter ' , ' programmer ' , ' Farmer '];
     
        let correctAns = prompt('What do you think my job is : '+ myJob);
@@ -116,3 +118,5 @@ alert (' Welcome to my webpage ,yes I am ' + correctAns);
 }else {
     alert ('I am engineer and programmer');
 }
+}
+q7();
