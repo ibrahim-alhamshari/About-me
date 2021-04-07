@@ -3,8 +3,10 @@ function q1(){
 let yourName = prompt('What\'s your name ?');
 }
 q1();
-
+function q2(){
 let yourAge = prompt('Is your age is greater than 12!');
+}
+q2();
 var feBack = prompt('Are you a student ?');
 let question = prompt('Do you know me ?');
 let movie1 = prompt('Am i from Irbid ?');
