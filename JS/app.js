@@ -1,5 +1,9 @@
 'use strict';
+function q1(){
 let yourName = prompt('What\'s your name ?');
+}
+q1();
+
 let yourAge = prompt('Is your age is greater than 12!');
 var feBack = prompt('Are you a student ?');
 let question = prompt('Do you know me ?');
