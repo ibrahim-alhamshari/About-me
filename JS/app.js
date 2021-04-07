@@ -1,11 +1,38 @@
 'use strict';
+function q1(){
 let yourName = prompt('What\'s your name ?');
-let yourAge = prompt('Is your age is greater than 12!');
-var feBack = prompt('Are you a student ?');
-let question = prompt('Do you know me ?');
-let movie1 = prompt('Am i from Irbid ?');
-let kids = prompt(' Do you have kids ?');
+return yourName;
+}
+let yourName = q1();
 
+function q2(){
+let yourAge = prompt('Is your age is greater than 12!');
+return yourAge;
+}
+let yourAge=q2();
+
+function q3(){
+let feBack=prompt('Are you a student ?');
+return feBack;
+}
+let feBack=q3();
+
+function q4(){
+let question = prompt('Do you know me ?');
+return question;
+}
+let question=q4();
+
+function q5(){
+let movie1=prompt('Am i from Irbid ?');
+return movie1;
+}
+let movie1=q5();
+
+function q6(){
+let kids = prompt(' Do you have kids ?');
+}
+let kids = q5();
 alert ('your name is: ' + yourName + ' \,  and your age is: ' + yourAge +' \, your answer abut if you a student was: ' +feBack);
 
 console.log(movie1);
@@ -29,7 +56,9 @@ switch(movie1){
     default:
         alert('Welcome to my website');
 }
-let scoure=0;
+ let scoure=0;
+
+function q6(){
 let sum = prompt('What is the result of this equation (7*4-5^2+10) ? You have only four attempts.');
 sum = parseInt(sum);
 var i =1;
@@ -53,8 +82,10 @@ for (i=1 ; i< 4 ; i++){
 alert ('the answer is (13)')
     }
     console.log(sum);
+}
+q6();
 
-
+function q7(){
     let myJob =['painter ', ' songer ' ,' Traveler ',' engineer ' , ' artst ' , ' doctor ' , ' salseman ' , ' carpenter ' , ' programmer ' , ' Farmer '];
     
        let correctAns = prompt('What do you think my job is : '+ myJob);
@@ -87,3 +118,5 @@ alert (' Welcome to my webpage ,yes I am ' + correctAns);
 }else {
     alert ('I am engineer and programmer');
 }
+}
+q7();
