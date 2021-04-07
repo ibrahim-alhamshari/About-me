@@ -15,7 +15,10 @@ function q4(){
 let question = prompt('Do you know me ?');
 }
 q4();
+function q5(){
 let movie1 = prompt('Am i from Irbid ?');
+}
+q5();
 let kids = prompt(' Do you have kids ?');
 
 alert ('your name is: ' + yourName + ' \,  and your age is: ' + yourAge +' \, your answer abut if you a student was: ' +feBack);
