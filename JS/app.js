@@ -11,7 +11,10 @@ function q3(){
 var feBack = prompt('Are you a student ?');
 }
 q3();
+function q4(){
 let question = prompt('Do you know me ?');
+}
+q4();
 let movie1 = prompt('Am i from Irbid ?');
 let kids = prompt(' Do you have kids ?');
 
