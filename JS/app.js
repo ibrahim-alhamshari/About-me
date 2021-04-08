@@ -7,9 +7,20 @@ let yourName = q1();
 
 function q2(){
 let yourAge = prompt('Is your age is greater than 12!');
-return yourAge;
+     return yourAge;
 }
-let yourAge=q2();
+// console.log(q2());
+var yourAge=q2();
+// console.log( typeof(yourAge));
+switch (yourAge){
+    case 'y' :
+    case 'yes' :
+     var yourAge = ' Greater than 12 .';
+    break;
+    default :
+       var yourAge = ' less than 12';
+    }
+// console.log(yourAge);
 
 function q3(){
 let feBack=prompt('Are you a student ?');
@@ -25,26 +36,27 @@ let question=q4();
 
 function q5(){
 let movie1=prompt('Am i from Irbid ?');
+movie1= movie1.toLowerCase();
 return movie1;
 }
-let movie1=q5();
+let x=q5();
+console.log(x);
 
 function q6(){
 let kids = prompt(' Do you have kids ?');
-}
-let kids = q5();
-alert ('your name is: ' + yourName + ' \,  and your age is: ' + yourAge +' \, your answer abut if you a student was: ' +feBack);
-
-console.log(movie1);
-console.log(kids);
-
-movie1= movie1.toLowerCase();
 kids= kids.toUpperCase();
+return kids;
+}
+let kids = q6();
 
-console.log(movie1);
-console.log(kids);
+alert ('your name is: ' + yourName + ' \,  and your age is ' + yourAge +' \, your answer abut if you a student was: ' + feBack);
 
-switch(movie1){
+// console.log(movie1);
+// console.log(kids);
+
+// console.log(kids);
+
+switch(x){
     case 'yes' :
     case 'y' :
         alert('I  will show you some anime movies or cartons');
@@ -56,9 +68,10 @@ switch(movie1){
     default:
         alert('Welcome to my website');
 }
+
  let scoure=0;
 
-function q6(){
+function q7(){
 let sum = prompt('What is the result of this equation (7*4-5^2+10) ? You have only four attempts.');
 sum = parseInt(sum);
 var i =1;
@@ -82,10 +95,11 @@ for (i=1 ; i< 4 ; i++){
 alert ('the answer is (13)')
     }
     console.log(sum);
+    return sum,scoure ;
 }
-q6();
+q7();
 
-function q7(){
+function q8(){
     let myJob =['painter ', ' songer ' ,' Traveler ',' engineer ' , ' artst ' , ' doctor ' , ' salseman ' , ' carpenter ' , ' programmer ' , ' Farmer '];
     
        let correctAns = prompt('What do you think my job is : '+ myJob);
@@ -119,4 +133,4 @@ alert (' Welcome to my webpage ,yes I am ' + correctAns);
     alert ('I am engineer and programmer');
 }
 }
-q7();
+q8();
