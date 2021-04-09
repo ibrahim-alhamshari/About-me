@@ -104,7 +104,7 @@ function q8(){
     
        let correctAns = prompt('What do you think my job is : '+ myJob);
    
-       for (let g=0 ; g<6 ; g++){
+       for (let g=0 ; g<5 ; g++){
 correctAns = correctAns.toLowerCase();
  
         if (correctAns == 'programmer'){
